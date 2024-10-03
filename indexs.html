@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Finder</title>
+    <style>
+        *{
+            margin: 50px;
+            padding: 20px;
+            color: rgb(32, 4, 242);
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+        input, button {
+            margin: 5px;
+            background-color: silver;
+        }
+        button:hover{
+            color: white;
+            background: #000;
+            border-color: aliceblue;
+            border-width: 3.5px;
+        }
+        .result{
+            color: white;
+            border: 2px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body style="background-color: #000;">
+    <center>
+    <h1>Find Longitude and Latitude</h1>
+    <input type="text" id="location" placeholder="Enter a place or location" />
+    <button id="getCoords" style="color: rgb(89, 10, 247);">Get Coordinates</button>
+    <div id="result"></div>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
